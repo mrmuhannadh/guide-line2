@@ -12,8 +12,8 @@ const nextConfig: NextConfig = {
   env: {
     APP_VERSION: version,
   },
-  basePath: process.env.BASE_PATH,
-  assetPrefix: process.env.BASE_PATH,
+  basePath: '/fileserver/help-guide-poc',
+  assetPrefix: '/fileserver/help-guide-poc',
 };
 
 const withNextra = nextra({
